@@ -1,0 +1,2718 @@
+{
+ "$id": "1",
+ "modelTypes": [
+  {
+   "$id": "2",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "3",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "4",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "5",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "6",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "7",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "8",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "9",
+     "isReadOnly": false,
+     "realPath": [
+      "firstName"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "10",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "11",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "12",
+      "fixed": false,
+      "raw": "firstName"
+     },
+     "serializedName": "firstName",
+     "modelType": {
+      "$id": "13",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "14",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "15",
+     "isReadOnly": false,
+     "realPath": [
+      "lastName"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "16",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "17",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "18",
+      "fixed": false,
+      "raw": "lastName"
+     },
+     "serializedName": "lastName",
+     "modelType": {
+      "$id": "19",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "20",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "21",
+     "isReadOnly": false,
+     "realPath": [
+      "password"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "22",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "23",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "24",
+      "fixed": false,
+      "raw": "password"
+     },
+     "serializedName": "password",
+     "modelType": {
+      "$id": "25",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "26",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    }
+   ],
+   "serializedName": "UserDetails",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "27",
+    "fixed": false,
+    "raw": "UserDetails"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "UserDetails",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/UserDetails"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "28",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "29",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "30",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "31",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "32",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "33",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "34",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "35",
+     "isReadOnly": false,
+     "realPath": [
+      "password"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "36",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "37",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "38",
+      "fixed": false,
+      "raw": "password"
+     },
+     "serializedName": "password",
+     "modelType": {
+      "$id": "39",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "40",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    }
+   ],
+   "serializedName": "Email",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "41",
+    "fixed": false,
+    "raw": "Email"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "Email",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/Email"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "42",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "43",
+     "isReadOnly": false,
+     "realPath": [
+      "code"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "44",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "45",
+      "fixed": false
+     },
+     "extensions": {
+      "x-nullable": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "46",
+      "fixed": false,
+      "raw": "code"
+     },
+     "serializedName": "code",
+     "modelType": {
+      "$id": "47",
+      "$type": "PrimaryType",
+      "format": "int32",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "48",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "49",
+     "isReadOnly": false,
+     "realPath": [
+      "description"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "50",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "51",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "52",
+      "fixed": false,
+      "raw": "description"
+     },
+     "serializedName": "description",
+     "modelType": {
+      "$id": "53",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "54",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "55",
+     "isReadOnly": false,
+     "realPath": [
+      "method"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "56",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "57",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "58",
+      "fixed": false,
+      "raw": "method"
+     },
+     "serializedName": "method",
+     "modelType": {
+      "$id": "59",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "60",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "61",
+     "isReadOnly": false,
+     "realPath": [
+      "path"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "62",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "63",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "64",
+      "fixed": false,
+      "raw": "path"
+     },
+     "serializedName": "path",
+     "modelType": {
+      "$id": "65",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "66",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "67",
+     "isReadOnly": false,
+     "realPath": [
+      "service"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "68",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "69",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "70",
+      "fixed": false,
+      "raw": "service"
+     },
+     "serializedName": "service",
+     "modelType": {
+      "$id": "71",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "72",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "73",
+     "isReadOnly": false,
+     "realPath": [
+      "status"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "74",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "75",
+      "fixed": false
+     },
+     "extensions": {
+      "x-nullable": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "76",
+      "fixed": false,
+      "raw": "status"
+     },
+     "serializedName": "status",
+     "modelType": {
+      "$id": "77",
+      "$type": "PrimaryType",
+      "format": "int32",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "78",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "79",
+     "isReadOnly": false,
+     "realPath": [
+      "timestamp"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "80",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "81",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "82",
+      "fixed": false,
+      "raw": "timestamp"
+     },
+     "serializedName": "timestamp",
+     "modelType": {
+      "$id": "83",
+      "$type": "PrimaryType",
+      "format": "date-time",
+      "knownPrimaryType": "dateTime",
+      "deprecated": false,
+      "name": {
+       "$id": "84",
+       "fixed": false,
+       "raw": "DateTime"
+      }
+     }
+    }
+   ],
+   "serializedName": "ErrorModel",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "85",
+    "fixed": false,
+    "raw": "ErrorModel"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "ErrorModel",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/ErrorModel"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "86",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "87",
+     "isReadOnly": false,
+     "realPath": [
+      "error"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "88",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "89",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "90",
+      "fixed": false,
+      "raw": "error"
+     },
+     "serializedName": "error",
+     "modelType": {
+      "$ref": "42"
+     }
+    }
+   ],
+   "serializedName": "ErrorResponse",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "91",
+    "fixed": false,
+    "raw": "ErrorResponse"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "ErrorResponse",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/ErrorResponse"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "92",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "93",
+     "isReadOnly": false,
+     "realPath": [
+      "code"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "94",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "95",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "96",
+      "fixed": false,
+      "raw": "code"
+     },
+     "serializedName": "code",
+     "modelType": {
+      "$id": "97",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "98",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "99",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "100",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "101",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "102",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "103",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "104",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "105",
+     "isReadOnly": false,
+     "realPath": [
+      "password"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "106",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "107",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "108",
+      "fixed": false,
+      "raw": "password"
+     },
+     "serializedName": "password",
+     "modelType": {
+      "$id": "109",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "110",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "111",
+     "isReadOnly": false,
+     "realPath": [
+      "type"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "112",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "113",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "114",
+      "fixed": false,
+      "raw": "type"
+     },
+     "serializedName": "type",
+     "modelType": {
+      "$id": "115",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "object",
+      "deprecated": false,
+      "name": {
+       "$id": "116",
+       "fixed": false,
+       "raw": "Object"
+      }
+     }
+    }
+   ],
+   "serializedName": "PasswordDetails",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "117",
+    "fixed": false,
+    "raw": "PasswordDetails"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "PasswordDetails",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/PasswordDetails"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "118",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "119",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "120",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "121",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "122",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "123",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "124",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "125",
+     "isReadOnly": false,
+     "realPath": [
+      "maxAttempts"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "126",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "127",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "128",
+      "fixed": false,
+      "raw": "maxAttempts"
+     },
+     "serializedName": "maxAttempts",
+     "modelType": {
+      "$id": "129",
+      "$type": "PrimaryType",
+      "format": "int32",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "130",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "131",
+     "isReadOnly": false,
+     "realPath": [
+      "remainingAttempts"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "132",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "133",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "134",
+      "fixed": false,
+      "raw": "remainingAttempts"
+     },
+     "serializedName": "remainingAttempts",
+     "modelType": {
+      "$id": "135",
+      "$type": "PrimaryType",
+      "format": "int32",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "136",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    }
+   ],
+   "serializedName": "ServiceResponse",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "137",
+    "fixed": false,
+    "raw": "ServiceResponse"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "ServiceResponse",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/ServiceResponse"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "138",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "139",
+     "isReadOnly": false,
+     "realPath": [
+      "code"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "140",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "141",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "142",
+      "fixed": false,
+      "raw": "code"
+     },
+     "serializedName": "code",
+     "modelType": {
+      "$id": "143",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "144",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "145",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "146",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "147",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "148",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "149",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "150",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "151",
+     "isReadOnly": false,
+     "realPath": [
+      "type"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "152",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "153",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "154",
+      "fixed": false,
+      "raw": "type"
+     },
+     "serializedName": "type",
+     "modelType": {
+      "$id": "155",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "object",
+      "deprecated": false,
+      "name": {
+       "$id": "156",
+       "fixed": false,
+       "raw": "Object"
+      }
+     }
+    }
+   ],
+   "serializedName": "ValidationDetails",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "157",
+    "fixed": false,
+    "raw": "ValidationDetails"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "ValidationDetails",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/ValidationDetails"
+     ]
+    }
+   }
+  },
+  {
+   "$id": "158",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "159",
+     "isReadOnly": false,
+     "realPath": [
+      "email"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "160",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "161",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "162",
+      "fixed": false,
+      "raw": "email"
+     },
+     "serializedName": "email",
+     "modelType": {
+      "$id": "163",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "164",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "165",
+     "isReadOnly": false,
+     "realPath": [
+      "firstName"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "166",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "167",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "168",
+      "fixed": false,
+      "raw": "firstName"
+     },
+     "serializedName": "firstName",
+     "modelType": {
+      "$id": "169",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "170",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "171",
+     "isReadOnly": false,
+     "realPath": [
+      "lastName"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "172",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "173",
+      "fixed": false
+     },
+     "isRequired": true,
+     "isConstant": false,
+     "name": {
+      "$id": "174",
+      "fixed": false,
+      "raw": "lastName"
+     },
+     "serializedName": "lastName",
+     "modelType": {
+      "$id": "175",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "176",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    }
+   ],
+   "serializedName": "RegistrationDetails",
+   "containsConstantProperties": false,
+   "deprecated": false,
+   "name": {
+    "$id": "177",
+    "fixed": false,
+    "raw": "RegistrationDetails"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///127?oai3.shaken.json"
+     ],
+     "name": "RegistrationDetails",
+     "originalLocations": [
+      "https://api.dxsandbox.com/identity-service/q/openapi#/components/schemas/RegistrationDetails"
+     ]
+    }
+   }
+  }
+ ],
+ "name": "DxIdentityService",
+ "namespace": "",
+ "modelsName": "Models",
+ "apiVersion": "1.0",
+ "baseUrl": "http://localhost:8080",
+ "operations": [
+  {
+   "$id": "178",
+   "methods": [
+    {
+     "$id": "179",
+     "parameters": [
+      {
+       "$id": "180",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "181",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "182",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·tj51tm·v1-users·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·tj51tm·v1-users·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "183",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "2"
+       }
+      }
+     ],
+     "name": {
+      "$id": "184",
+      "fixed": false,
+      "raw": "registerUser"
+     },
+     "group": {
+      "$id": "185",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "registerUser",
+     "url": "/v1/users",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "186",
+       "body": {
+        "$id": "187",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "188",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "189",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1bcibgn·v1-users·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1bcibgn·v1-users·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "190",
+       "body": {
+        "$id": "191",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "192",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "193",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·cfx02i·v1-users·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·cfx02i·v1-users·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "194",
+       "body": {
+        "$id": "195",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "196",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "197",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·z1wv12·v1-users·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·z1wv12·v1-users·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "198",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "199",
+      "body": {
+       "$ref": "187"
+      },
+      "isNullable": true
+     },
+     "description": "Register a user.",
+     "summary": "Register a user",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "200",
+     "parameters": [
+      {
+       "$id": "201",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "202",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "203",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1b06dyn·v1-users-reset_password·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·1b06dyn·v1-users-reset_password·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "204",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "92"
+       }
+      }
+     ],
+     "name": {
+      "$id": "205",
+      "fixed": false,
+      "raw": "resetPassword"
+     },
+     "group": {
+      "$id": "206",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "resetPassword",
+     "url": "/v1/users/reset-password",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "207",
+       "body": {
+        "$id": "208",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "209",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "210",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1slf5ul·v1-users-reset_password·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1slf5ul·v1-users-reset_password·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "211",
+       "body": {
+        "$id": "212",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "213",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "214",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1jw43br·v1-users-reset_password·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1jw43br·v1-users-reset_password·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "215",
+       "body": {
+        "$id": "216",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "217",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "218",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·8tn6v5·v1-users-reset_password·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·8tn6v5·v1-users-reset_password·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "219",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "220",
+      "body": {
+       "$ref": "208"
+      },
+      "isNullable": true
+     },
+     "description": "Reset password",
+     "summary": "Reset password",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "221",
+     "parameters": [
+      {
+       "$id": "222",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "223",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "224",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·11kf8z8·v1-users-send_reset_password_email·put·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·11kf8z8·v1-users-send_reset_password_email·put·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "225",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "28"
+       }
+      }
+     ],
+     "name": {
+      "$id": "226",
+      "fixed": false,
+      "raw": "sendResetPassword"
+     },
+     "group": {
+      "$id": "227",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "sendResetPassword",
+     "url": "/v1/users/send-reset-password-email",
+     "isAbsoluteUrl": false,
+     "httpMethod": "put",
+     "responses": {
+      "OK": {
+       "$id": "228",
+       "body": {
+        "$id": "229",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "230",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "231",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·gh483x·v1-users-send_reset_password_email·put·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·gh483x·v1-users-send_reset_password_email·put·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "232",
+       "body": {
+        "$id": "233",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "234",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "235",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·sza1u5·v1-users-send_reset_password_email·put·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·sza1u5·v1-users-send_reset_password_email·put·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "NotFound": {
+       "$id": "236",
+       "body": {
+        "$id": "237",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "238",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "239",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1i7btam·v1-users-send_reset_password_email·put·responses·404",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1i7btam·v1-users-send_reset_password_email·put·responses·404"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "240",
+       "body": {
+        "$id": "241",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "242",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "243",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1icjl5i·v1-users-send_reset_password_email·put·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1icjl5i·v1-users-send_reset_password_email·put·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "244",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "245",
+      "body": {
+       "$ref": "229"
+      },
+      "isNullable": true
+     },
+     "description": "Send Reset password to user.",
+     "summary": "Send Reset password to user.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "246",
+     "parameters": [
+      {
+       "$id": "247",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "248",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "249",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·17ynx0a·v1-users-send_verification_email·put·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·17ynx0a·v1-users-send_verification_email·put·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "250",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "28"
+       }
+      }
+     ],
+     "name": {
+      "$id": "251",
+      "fixed": false,
+      "raw": "sendVerification"
+     },
+     "group": {
+      "$id": "252",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "sendVerification",
+     "url": "/v1/users/send-verification-email",
+     "isAbsoluteUrl": false,
+     "httpMethod": "put",
+     "responses": {
+      "OK": {
+       "$id": "253",
+       "body": {
+        "$id": "254",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "255",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "256",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·zcubl8·v1-users-send_verification_email·put·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·zcubl8·v1-users-send_verification_email·put·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "257",
+       "body": {
+        "$id": "258",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "259",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "260",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·bm703e·v1-users-send_verification_email·put·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·bm703e·v1-users-send_verification_email·put·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "NotFound": {
+       "$id": "261",
+       "body": {
+        "$id": "262",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "263",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "264",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·571tay·v1-users-send_verification_email·put·responses·404",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·571tay·v1-users-send_verification_email·put·responses·404"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "265",
+       "body": {
+        "$id": "266",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "267",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "268",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·hg7dcq·v1-users-send_verification_email·put·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·hg7dcq·v1-users-send_verification_email·put·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "269",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "270",
+      "body": {
+       "$ref": "254"
+      },
+      "isNullable": true
+     },
+     "description": "Send Email Verification.",
+     "summary": "Send Email Verification",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "271",
+     "parameters": [
+      {
+       "$id": "272",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "273",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "274",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·ijb9em·v1-users-set_email_verified·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·ijb9em·v1-users-set_email_verified·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "275",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "138"
+       }
+      }
+     ],
+     "name": {
+      "$id": "276",
+      "fixed": false,
+      "raw": "setEmailVerified"
+     },
+     "group": {
+      "$id": "277",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "setEmailVerified",
+     "url": "/v1/users/set-email-verified",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "278",
+       "body": {
+        "$id": "279",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "280",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "281",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·madye5·v1-users-set_email_verified·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·madye5·v1-users-set_email_verified·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "282",
+       "body": {
+        "$id": "283",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "284",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "285",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·7shot6·v1-users-set_email_verified·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·7shot6·v1-users-set_email_verified·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "286",
+       "body": {
+        "$id": "287",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "288",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "289",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·7nvgvg·v1-users-set_email_verified·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·7nvgvg·v1-users-set_email_verified·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "290",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "291",
+      "body": {
+       "$ref": "279"
+      },
+      "isNullable": true
+     },
+     "description": "Validate code by email/text and set emailVerified flag.",
+     "summary": "Validate code by email/text and set emailVerified flag.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "292",
+     "parameters": [
+      {
+       "$id": "293",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "294",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "295",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1xboy7u·v1-users-silent_registration·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·1xboy7u·v1-users-silent_registration·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "296",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "158"
+       }
+      }
+     ],
+     "name": {
+      "$id": "297",
+      "fixed": false,
+      "raw": "silentRegisterUser"
+     },
+     "group": {
+      "$id": "298",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "silentRegisterUser",
+     "url": "/v1/users/silent-registration",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "299",
+       "body": {
+        "$id": "300",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "301",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "302",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1vrnfst·v1-users-silent_registration·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1vrnfst·v1-users-silent_registration·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "303",
+       "body": {
+        "$id": "304",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "305",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "306",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·mbw56q·v1-users-silent_registration·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·mbw56q·v1-users-silent_registration·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "307",
+       "body": {
+        "$id": "308",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "309",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "310",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1enrfuy·v1-users-silent_registration·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1enrfuy·v1-users-silent_registration·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "311",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "312",
+      "body": {
+       "$ref": "300"
+      },
+      "isNullable": true
+     },
+     "description": "Register a user without password",
+     "summary": "Register a user",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "313",
+     "parameters": [
+      {
+       "$id": "314",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "315",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "316",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·5s965·v1-users-validate·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·5s965·v1-users-validate·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "317",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "28"
+       }
+      }
+     ],
+     "name": {
+      "$id": "318",
+      "fixed": false,
+      "raw": "validateEmail"
+     },
+     "group": {
+      "$id": "319",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "validateEmail",
+     "url": "/v1/users/validate",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "320",
+       "body": {
+        "$id": "321",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "322",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "323",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1h3dva7·v1-users-validate·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1h3dva7·v1-users-validate·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "324",
+       "body": {
+        "$id": "325",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "326",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "327",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·2py75r·v1-users-validate·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·2py75r·v1-users-validate·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "328",
+       "body": {
+        "$id": "329",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "330",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "331",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1naxtab·v1-users-validate·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1naxtab·v1-users-validate·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "332",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "333",
+      "body": {
+       "$ref": "321"
+      },
+      "isNullable": true
+     },
+     "description": "Validate email.",
+     "summary": "Validate email.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "334",
+     "parameters": [
+      {
+       "$id": "335",
+       "location": "body",
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "336",
+        "fixed": false
+       },
+       "deprecated": false,
+       "documentation": {
+        "$id": "337",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1x76hx0·v1-users-validate_code·post·requestbody",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/requestBodies/paths·1x76hx0·v1-users-validate_code·post·requestbody"
+         ]
+        }
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "338",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$ref": "138"
+       }
+      }
+     ],
+     "name": {
+      "$id": "339",
+      "fixed": false,
+      "raw": "validateCode"
+     },
+     "group": {
+      "$id": "340",
+      "fixed": false,
+      "raw": ""
+     },
+     "serializedName": "validateCode",
+     "url": "/v1/users/validate-code",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "341",
+       "body": {
+        "$id": "342",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "343",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "344",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·7a93f6·v1-users-validate_code·post·responses·200",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·7a93f6·v1-users-validate_code·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "BadRequest": {
+       "$id": "345",
+       "body": {
+        "$id": "346",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "347",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "348",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·2f4b8b·v1-users-validate_code·post·responses·400",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·2f4b8b·v1-users-validate_code·post·responses·400"
+         ]
+        }
+       },
+       "isNullable": true
+      },
+      "InternalServerError": {
+       "$id": "349",
+       "body": {
+        "$id": "350",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "object",
+        "deprecated": false,
+        "name": {
+         "$id": "351",
+         "fixed": false,
+         "raw": "Object"
+        }
+       },
+       "extensions": {
+        "$id": "352",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///127?oai3.shaken.json"
+         ],
+         "name": "paths·1lg5e5i·v1-users-validate_code·post·responses·500",
+         "originalLocations": [
+          "https://api.dxsandbox.com/identity-service/q/openapi#/components/responses/paths·1lg5e5i·v1-users-validate_code·post·responses·500"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "353",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "354",
+      "body": {
+       "$ref": "342"
+      },
+      "isNullable": true
+     },
+     "description": "Validate code by email/text.",
+     "summary": "Validate code by email/text.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "http://localhost:8080"
+       },
+       {
+        "url": "https://api.dxsandbox.com/identity-service"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    }
+   ],
+   "name": {
+    "$id": "355",
+    "fixed": false,
+    "raw": ""
+   },
+   "typeName": {
+    "$id": "356",
+    "fixed": false
+   },
+   "nameForProperty": "DxIdentityService"
+  }
+ ]
+}

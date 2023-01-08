@@ -1,0 +1,47 @@
+{
+  "notebook.kernelProviderAssociations": [],
+  "cucumberautocomplete.steps": [
+    "packages/mobile/src/step-definitions/*.ts",
+    "packages/web/src/**/**/*.ts",
+    "packages/api/src/API/**/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "**/src/features/*.feature",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "better-comments.multilineComments": true,
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/node_modules": false,
+    "**/dist": false
+  },
+
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "editor.autoIndent": "full",
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.lintTask.enable": true
+}

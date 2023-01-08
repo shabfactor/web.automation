@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "paths": {
+            "*": [
+                "./src"
+            ],
+        },
+        "types": [
+            "node",
+            "chai",
+            "webdriverio/sync",
+            "@wdio/cucumber-framework"
+        ]
+    },
+    "include": [
+        "./src/**/**/*.ts",
+        "./config/**/*.ts",
+        "../support/**/*.ts",
+        "../support/util/restHelper.js"
+    ],
+    "exclude": [
+        "./node_modules"
+    ],
+    "compileOnSave": true
+}

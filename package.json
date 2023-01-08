@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist --ci",
+    "bootstrap:clean": "rm -rf node_modules/ && lerna clean -y && lerna bootstrap --hoist --ci",
+    "test:all": "npm run test:ui && npm run test:app && npm run test:api",
+    "test:ui": "cd ./packages/web && npm run test:ui && cd ../",
+    "test:app": "cd ./packages/mobile && npm run test:app && cd ../",
+    "test:api": "cd ./packages/api && npm run test:api && cd ../"
+  },
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

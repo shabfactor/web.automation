@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": "./src",
+    "paths": {
+      "*": [
+        "./src/API"
+      ],
+    },
+    "types": [
+      "node",
+      "chai",
+    ]
+  },
+  "include": [
+    "./src/API/**/*.ts",
+  ],
+  "exclude": [
+    "./node_modules"
+  ],
+  "compileOnSave": true
+}
