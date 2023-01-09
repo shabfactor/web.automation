@@ -1,4 +1,4 @@
-# dx-ss-automation repository
+# Web-automation repository
 
 **Packages** (see readme in each package for more details):
 
